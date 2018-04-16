@@ -2,7 +2,7 @@ require 'pry'
 
 class Artist
   extend Memorable
-  include Paramble
+  include Paramable
   attr_accessor :name
   attr_reader :songs
 
